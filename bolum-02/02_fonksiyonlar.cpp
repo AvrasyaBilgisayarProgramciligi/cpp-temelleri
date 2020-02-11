@@ -13,7 +13,7 @@ using namespace std;
  */
 
 /* Fonksiyon tanımlama
- * (dönüş tipi) (fonksiyon ismi(parametreler)) 
+ * (dönüş tipi) (fonksiyon ismi(parametreler))
  * {
  *     // komutlar
  * }
@@ -39,7 +39,7 @@ float hava_kac_derece()
     mt19937 engine(device());
     uniform_real_distribution<float> distance(1.0f, 30.0f);
 
-    // Üst tarafı bilmenize gerek yok kısacası rastgele 
+    // Üst tarafı bilmenize gerek yok kısacası rastgele
     // sayı üretmek için kullanılan bir kod parçası.
     return distance(engine);
 }
@@ -51,7 +51,7 @@ void balik_besle(int numara)
     {
         cout << numara << " numaralı balık beslendi." << endl;
     }
-    else 
+    else
     {
         cout << numara << " numaralı bir balık bulunamadı." << endl;
     }

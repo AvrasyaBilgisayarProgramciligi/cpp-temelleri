@@ -22,7 +22,7 @@ int main()
     tam_sayilar[1] = 25;
     tam_sayilar[2] = 67;
     tam_sayilar[3] = 43;
-    tam_sayilar[4] = 56;
+    tam_sayilar[4] = 55;
 
     // Not: Indeksler 0'dan başlar bu nedenle tam_sayilar[5]
     // dediğimizde aslında indeks dörte kadar geliyoruz.

@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     /* Birbiri ile ilişkili veri kümelerine struct (yapı) denir.
-     * Yapı olarak dizilere çok benzemektedir. 
+     * Yapı olarak dizilere çok benzemektedir.
      * Çünkü diziler gibi birden fazla nesneyi içinde bulundururlar.
      * ! Fakat diziler sadece aynı türe sahip değerleri bir arada tutabiliyorken
      * yapılar farklı türden nesneleri içerisnde barındırabilir.
@@ -20,7 +20,8 @@ int main()
      *  (veri türü) (değişken adı);
      * }(değişken listesi);
      */
-    struct Musteri{
+    struct Musteri
+    {
         char *isim;
         char *soyisim;
         int yas;
@@ -66,7 +67,7 @@ int main()
     il.isim = "Trabzon";
     il.bolge = "Karadeniz Bölgesi";
     il.plaka = 61;
-    
+
     // Test:
     cout << "İl ismi: " << il.isim << endl;
     cout << "İl bölgesi: " << il.bolge << endl;
@@ -77,6 +78,6 @@ int main()
      * İl bölgesi: Karadeniz Bölgesi
      * İl plakası: 61
      */
-    
+
     return 0;
 }
