@@ -1,4 +1,4 @@
-# CPP Temelleri <img src="/files/img/cpp_logo.png" alt="Standard C++" width = "50" height = "50">
+# CPP Temelleri <img src="res/cpp_logo.png" alt="Standard C++" width=40 height=45 align="right">
 
 2. sınıf 2. dönem nesene tabanlı programlama dersine hitaben hazırlanmış repo.
 
