@@ -46,5 +46,5 @@ int main()
 
 
     return 0; // Şimdilik bilmemize gerek yok. 
-             // Burdaki tek görevi, fonksiyonu bitirmek.
+              // Burdaki tek görevi, fonksiyonu bitirmek.
 }
