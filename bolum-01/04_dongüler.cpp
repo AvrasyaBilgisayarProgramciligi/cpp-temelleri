@@ -47,4 +47,6 @@ int main()
         // komut ifadesi
         cout << "İ değeri: " << i << endl;
     }
+
+    return 0;
 }
