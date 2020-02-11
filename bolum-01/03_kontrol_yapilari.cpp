@@ -35,7 +35,7 @@ int main()
     int yas;
     cout << "Lütfen yaşınızı giriniz: ";
     cin >> yas; // 'cin' ifadesi programa dışardan input almak için kullanılır.
-    
+
     if(yas > 18)
     {
         cout << "Aramıza Hoşgeldin" << endl;
@@ -60,18 +60,18 @@ int main()
     {
         cout << "Sayı sıfırdan büyüktür." << endl;
     }
-    else if (sayi < 0) 
+    else if (sayi < 0)
     {
         cout << "Sayı sıfırdan küçüktür" << endl;
     }
-    else 
+    else
     {
         cout << "Sayı sıfırdır" << endl;
     }
 
     /* Switch - Case yapısı
-     * Yapının başlıca amacı bir değişkenin 
-     * değerine göre programa yön vermektir. 
+     * Yapının başlıca amacı bir değişkenin
+     * değerine göre programa yön vermektir.
      */
 
     // Kullanım:

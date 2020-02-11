@@ -30,15 +30,16 @@ int main()
 
     // Kullanım
     test = true;
-    do 
+    do
     {
         // komut ifadesi
         test = false;
-    }while (test /*koşul ifadesi*/);
+    }
+    while (test /*koşul ifadesi*/);
 
     /* For döngüsü
      * 'for' döngüsünde koşul gerçekleştiği sürece, 'for' döngüsü içerisindeki
-     * komutlar artırma ya da azaltma değerleri kadar tekrarlanır. 
+     * komutlar artırma ya da azaltma değerleri kadar tekrarlanır.
      */
 
     // Kullanım

@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     /* Atama operatörü (=)
-     * Bir değişkene herhangi bir değer atanacağı 
+     * Bir değişkene herhangi bir değer atanacağı
      * zaman kullanılan operatör.
      */
     int sayi = 2;
@@ -27,7 +27,7 @@ int main()
 
     cout << "Toplamı: " << sayi_1 + sayi_2 << endl;
     cout << "Farkı: " << sayi_1 - sayi_2 << endl;
-    cout << "Çarpımı: "<< sayi_1 * sayi_2 << endl;
+    cout << "Çarpımı: " << sayi_1 *sayi_2 << endl;
     cout << "Bölümü: " << sayi_1 / sayi_2 << endl;
 
     /* Aritmetik atama operatörleri
@@ -44,7 +44,7 @@ int main()
      * Küçük eşittir operatörü (<=)
      * Büyük eşittir operatörü (>=)
      * Eşit mı operatörü       (==)
-     * Farklı mı operatörü     (!=) 
+     * Farklı mı operatörü     (!=)
      */
 
     // Örnekler;

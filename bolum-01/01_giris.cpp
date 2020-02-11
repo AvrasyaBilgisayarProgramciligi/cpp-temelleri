@@ -1,6 +1,6 @@
-#include <iostream> 
+#include <iostream>
 /* (#) Diyez işareti ile başlayan satırlar başlık dosyalarıdır.
- * Program içinde bazı kodları kullanabilmek 
+ * Program içinde bazı kodları kullanabilmek
  * için bu başlık dosyalarını programa dahil etmek gerekir.
  */
 
@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-    /* Her programlama dilinde başlangıçta 
+    /* Her programlama dilinde başlangıçta
      * yapıldığı gibi 'Merhaba, Dünya' yazıyoruz.
      */
     cout << "Merhaba, Dünya" << endl;
@@ -29,7 +29,7 @@ int main()
 
     /* Değişken tanımlama
      * (değişken tipi) (değişken adı);
-     */ 
+     */
     int yas;
     float fiyat;
     char harf;
@@ -43,6 +43,6 @@ int main()
     char const son_harf = 'C';
 
 
-    return 0; // Şimdilik bilmemize gerek yok. 
-              // Burdaki tek görevi, fonksiyonu bitirmek.
+    return 0; // Şimdilik bilmemize gerek yok.
+    // Burdaki tek görevi, fonksiyonu bitirmek.
 }
