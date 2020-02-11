@@ -77,4 +77,6 @@ int main()
      * İl bölgesi: Karadeniz Bölgesi
      * İl plakası: 61
      */
+    
+    return 0;
 }
