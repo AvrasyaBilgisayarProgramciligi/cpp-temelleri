@@ -79,13 +79,13 @@ int main()
     switch (sayi/*kontrol edilecek ifade*/)
     {
     case 10:
-        // Yapılacak işlemler
+        // Yapılacak işlemler.
         break;
     case 11:
-        //Yapılcak işlemler
+        //Yapılcak işlemler.
         break;
     default:
-        // Üsteki durumların dışındaki bir durumda yapılacak işlemler
+        // Üsteki durumların dışındaki bir durumda yapılacak işlemler.
         break;
     }
 

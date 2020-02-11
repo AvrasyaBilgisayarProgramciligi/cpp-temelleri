@@ -13,7 +13,7 @@ using namespace std;
 int main()
 {
     /* Her programlama dilinde başlangıçta 
-     * yapıldığı gibi 'Merhaba, Dünya' yazıyoruz 
+     * yapıldığı gibi 'Merhaba, Dünya' yazıyoruz.
      */
     cout << "Merhaba, Dünya" << endl;
 
@@ -35,10 +35,8 @@ int main()
     char letter;
 
     /* Sabit değişkenler
-     * Programın çalışma süresince değişmeyecek olan 
-     * değerlerin saklanmasında için kullanılır.
-     * 'const' anahtar kelimesi ile ifade edilir. 
-     * Ve tanımlanırken mutlaka değer verilmesi zorunludur.
+     * Programın çalışma süresince değişmeyecek olan değerlerin saklanmasında için kullanılır.
+     * 'const' anahtar kelimesi ile ifade edilir ve tanımlanırken mutlaka değer atanması zorunludur.
      */
     int const age = 20;
     float const price = 19.99f;

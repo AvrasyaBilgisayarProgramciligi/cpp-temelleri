@@ -25,7 +25,7 @@ int main()
     /* Do - While döngüsü
      * 'do while' döngülerinin çalışma şekli, 'while' döngüsü ile aynıdır.
      * fakat 'do while' döngüsünde koşul sonda bulunacağı için
-     * önce döngü gövdesi sonra koşul ifadesi icra edilir.,
+     * önce döngü gövdesi sonra koşul ifadesi icra edilir.
      */
 
     // Kullanım

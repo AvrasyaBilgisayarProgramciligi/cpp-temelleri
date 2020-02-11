@@ -47,7 +47,7 @@ int main()
      * Farklı mı operatörü     (!=) 
      */
 
-    //Örnekler;
+    // Örnekler;
     bool a = (6 < 3);
     cout << "6 3' ten küçük mü?: " << a << endl;
     a = (9 > 5);
