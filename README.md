@@ -6,9 +6,8 @@
 ![Watchers](https://img.shields.io/github/watchers/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
 </div>
 
-
+<h3 align="center">CPP Temelleri</h3>
 <p align="center">
-    <h3 align="center">CPP Temelleri</h3>
     <img src="res/cpp_logo.png" alt="Standard C++" width=150 height=160>
 </p>
 
