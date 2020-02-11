@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     /* Atama operatörü (=)
      * Bir değişkene herhangi bir değer atanacağı 
      * zaman kullanılan operatör.
