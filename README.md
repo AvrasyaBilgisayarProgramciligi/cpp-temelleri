@@ -23,7 +23,7 @@ Elimden geldiğince kaynak incelemeye çalışıp bu repoyu oluşturdum. Atlamı
 - Bölüm 3
     - Önişlemci komutları
     - Hazır fonksiyonlar
-    - Sınfılar nesneler
+    - Sınfılar ve nesneler
     - Nesne dizileri ve göstericiler
 
 - Bölüm 4

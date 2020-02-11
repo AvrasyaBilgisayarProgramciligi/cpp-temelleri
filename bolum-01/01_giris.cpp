@@ -30,17 +30,17 @@ int main()
     /* Değişken tanımlama
      * (değişken tipi) (değişken adı);
      */ 
-    int age;
-    float price;
-    char letter;
+    int yas;
+    float fiyat;
+    char harf;
 
     /* Sabit değişkenler
      * Programın çalışma süresince değişmeyecek olan değerlerin saklanmasında için kullanılır.
      * 'const' anahtar kelimesi ile ifade edilir ve tanımlanırken mutlaka değer atanması zorunludur.
      */
-    int const age = 20;
-    float const price = 19.99f;
-    char const letter = 'C';
+    int const son_yas = 20;
+    float const son_fiyat = 19.99f;
+    char const son_harf = 'C';
 
 
     return 0; // Şimdilik bilmemize gerek yok. 

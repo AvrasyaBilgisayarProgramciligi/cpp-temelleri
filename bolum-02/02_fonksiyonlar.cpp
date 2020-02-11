@@ -4,22 +4,22 @@
 using namespace std;
 
 /* Fonksiyonlar yalnızca çağırıldığında çalışan kod bloklarıdır.
-    *
-    * Avantajları;
-    * - Kod tekrarı ortadan kalkar.
-    * - Programı düzenlemek kolaylaşır.
-    * - Okunabilirliği artırır.
-    * - Hata olasılığını azaltır.
-    */
+ *
+ * Avantajları;
+ * - Kod tekrarı ortadan kalkar.
+ * - Programı düzenlemek kolaylaşır.
+ * - Okunabilirliği artırır.
+ * - Hata olasılığını azaltır.
+ */
 
 /* Fonksiyon tanımlama
-    * (dönüş tipi) (fonksiyon ismi(parametreler)) 
-    * {
-    *     // komutlar
-    * }
-    */
+ * (dönüş tipi) (fonksiyon ismi(parametreler)) 
+ * {
+ *     // komutlar
+ * }
+ */
 
-/* 4 farklı fonksiyon türü vardır.
+/* Dört farklı fonksiyon türü vardır.
  * - Değer almayan ve değer dönmeyen.
  * - Değer almayan fakat değer dönen.
  * - Değer alan fakat değer dönmeyen.
