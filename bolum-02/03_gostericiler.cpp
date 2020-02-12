@@ -15,8 +15,8 @@ int main()
     float *fiyat;
     char *harf;
 
-    /* Gösterici öpretatörleri
-     * '&'ifadesi adres operatörü olarak kullanılır.
+    /* Gösterici öpretatörler;
+     * - '&' ifadesi adres operatörü olarak kullanılır.
      */
 
     // Kullanım:

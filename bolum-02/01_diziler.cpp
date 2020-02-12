@@ -24,8 +24,9 @@ int main()
     tam_sayilar[3] = 43;
     tam_sayilar[4] = 55;
 
-    // Not: Indeksler 0'dan başlar bu nedenle tam_sayilar[5]
-    // dediğimizde aslında indeks dörte kadar geliyoruz.
+    /* Not: Indeksler 0'dan başlar bu nedenle tam_sayilar[5]
+     * dediğimizde aslında indeks dörte kadar geliyoruz.
+     */
     for (int i = 0; i < 5; ++i)
     {
         cout << tam_sayilar[i] << endl;
