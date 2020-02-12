@@ -18,7 +18,7 @@ int main()
     bool test = true;
     while(test /*koşul ifadesi*/)
     {
-        // komut ifadesi
+        // Komut ifadesi
         test = false;
     }
 
@@ -32,7 +32,7 @@ int main()
     test = true;
     do
     {
-        // komut ifadesi
+        // Komut ifadesi
         test = false;
     }
     while (test /*koşul ifadesi*/);
@@ -45,7 +45,7 @@ int main()
     // Kullanım
     for (int i = 0 /*ilk değer atamaları*/; i < 10 /*koşul ifadesi*/; i++ /*artırma veya azaltma değeri*/)
     {
-        // komut ifadesi
+        // Komut ifadesi
         cout << "İ değeri: " << i << endl;
     }
 
