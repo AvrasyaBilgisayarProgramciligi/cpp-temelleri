@@ -19,7 +19,7 @@ using namespace std;
  * }
  */
 
-/* Dört farklı fonksiyon türü vardır.
+/* Dört farklı fonksiyon türü vardır;
  * - Değer almayan ve değer dönmeyen.
  * - Değer almayan fakat değer dönen.
  * - Değer alan fakat değer dönmeyen.
