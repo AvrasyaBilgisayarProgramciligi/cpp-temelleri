@@ -19,7 +19,7 @@ using namespace std;
  * }
  */
 
-/* Dört farklı fonksiyon türü vardır.
+/* Dört farklı fonksiyon türü vardır;
  * - Değer almayan ve değer dönmeyen.
  * - Değer almayan fakat değer dönen.
  * - Değer alan fakat değer dönmeyen.
@@ -44,7 +44,7 @@ float hava_kac_derece()
     return distance(engine);
 }
 
-// Örnek (değer alan fakat değer dönmeyen)
+// Örnek (değer alan fakat değer dönmeyen):
 void balik_besle(int numara)
 {
     if(numara > 0)
@@ -57,7 +57,7 @@ void balik_besle(int numara)
     }
 }
 
-// Örnek (değer alan ve değer dönen)
+// Örnek (değer alan ve değer dönen):
 int kare_hesapla(int sayi)
 {
     return sayi * sayi;

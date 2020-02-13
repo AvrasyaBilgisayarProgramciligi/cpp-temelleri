@@ -12,8 +12,9 @@ int main()
     bool test = true;
     if (test/*kontrol edilecek ifade*/)
     {
-        // Kontrol ifadesi 'true' ise veya 'true' dönüyorsa
-        // bu kod bloğu çalışacaktır.
+        /* Kontrol ifadesi 'true' ise veya 'true' dönüyorsa
+         * bu kod bloğu çalışacaktır.
+         */
     }
 
     /* Else yapısı
@@ -22,13 +23,15 @@ int main()
     test = false;
     if(test)
     {
-        // Kontrol ifadesi 'true' ise veya 'true' dönüyorsa
-        // bu kod bloğu çalışacaktır.
+        /* Kontrol ifadesi 'true' ise veya 'true' dönüyorsa
+         * bu kod bloğu çalışacaktır.
+         */
     }
     else
     {
-        // Kontrol ifadesi 'false' ise veya 'false' dönüyorsa
-        // bu kod bloğu çalışacaktır.
+        /* Kontrol ifadesi 'false' ise veya 'false' dönüyorsa
+         * bu kod bloğu çalışacaktır.
+         */
     }
 
     // Örnek:
