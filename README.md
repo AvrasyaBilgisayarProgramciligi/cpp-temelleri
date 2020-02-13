@@ -1,6 +1,15 @@
-# CPP Temelleri <img src="res/cpp_logo.png" alt="Standard C++" width=40 height=45 align="right">
+<div align="center">
+    
+![Issues](https://img.shields.io/github/issues/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
+![Last Commit](https://img.shields.io/github/last-commit/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
+![Stars](https://img.shields.io/github/stars/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
+![Watchers](https://img.shields.io/github/watchers/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
+</div>
 
-2. sınıf 2. dönem nesene tabanlı programlama dersine hitaben hazırlanmış repo.
+<h3 align="center">CPP Temelleri</h3>
+<p align="center">
+    <img src="res/cpp_logo.png" alt="Standard C++" width=150 height=160>
+</p>
 
 ## Giriş
 
