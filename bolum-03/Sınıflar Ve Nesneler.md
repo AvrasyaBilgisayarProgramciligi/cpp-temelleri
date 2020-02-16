@@ -442,6 +442,8 @@ Fonksiyon yıkıldı
 ```cpp
 #include <iostream>
 
+using namespace std;
+
 inline int dikdortgen_alan(int taban, int yukseklik)
 {
 	return taban * yukseklik;
@@ -449,6 +451,9 @@ inline int dikdortgen_alan(int taban, int yukseklik)
 
 int main()
 {
-	std::cout << dikdortgen_alan(5, 10) << std::endl;
+    int taban, yukseklik;
+    cout << "Dikdörtgenin taban uzunluğunu giriniz: ";
+    cin 
+	cout << dikdortgen_alan(5, 10) << endl;
 }
 ```
