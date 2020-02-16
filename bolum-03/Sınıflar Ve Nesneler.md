@@ -378,6 +378,8 @@ int main()
 {
 	Sayilar sayilar(15, 5, 25);
 	std::cout << sayilar.bilgileri_getir() << std::endl;
+
+    return 0;
 }
 ```
 <h2 style="margin: 10px 0 3px 0; font-weight: bold" > Yıkıcı Fonksiyonlar</h2>
@@ -421,6 +423,8 @@ int main()
 {
 	Sayilar sayilar(5, 15, 35);
 	std::cout << sayilar.bilgileri_getir() << std::endl;
+
+    return 0;
 }
 ```
 
@@ -442,6 +446,8 @@ Fonksiyon yıkıldı
 ```cpp
 #include <iostream>
 
+#include <iostream>
+
 using namespace std;
 
 inline int dikdortgen_alan(int taban, int yukseklik)
@@ -452,8 +458,15 @@ inline int dikdortgen_alan(int taban, int yukseklik)
 int main()
 {
     int taban, yukseklik;
+
     cout << "Dikdörtgenin taban uzunluğunu giriniz: ";
-    cin 
-	cout << dikdortgen_alan(5, 10) << endl;
+    cin >> taban;
+
+    cout << "Dikdörtgenin yükseklik uzunluğunu giriniz: ";
+    cin >> yukseklik;
+
+	cout << "Dikdörtgenin alanı: " << dikdortgen_alan(taban, yukseklik) << endl;
+
+	return 0;
 }
 ```
