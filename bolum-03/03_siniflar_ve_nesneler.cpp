@@ -8,61 +8,92 @@
  */
 
 #include <iostream>
+#include <map>
 #include <cmath>
 
-#define LEVEL_1_ENVANTER 50;
-#define LEVEL_2_ENVANTER 75;
-#define LEVEL_1_ENVANTER 100;
+#define MAKSIMUM_ENVANTER_BOYUTU 50
 
 using namespace std;
 
+class Urun
+{
+	private:
+	int tanim_numarasi;
+	string isim;
+	float fiyat;
+	int eldeki_miktar;
+
+	public:
+	Urun(int tanim_numarasi, string isim, float fiyat, int eldeki_miktar)
+	{
+		this->tanim_numarasi = tanim_numarasi;
+		this->isim = isim;
+		this->fiyat = fiyat;
+		this->eldeki_miktar = eldeki_miktar;
+	}
+
+	int get_tanim_numarasi ()
+	{
+		return tanim_numarasi;
+	}
+
+	string& get_isim()
+	{
+		return isim;
+	}
+
+	float get_fiyat()
+	{
+		return fiyat;
+	}
+
+	int get_eldeki_miktar()
+	{
+		return eldeki_miktar;
+	}
+
+	string bilgiler()
+	{
+		return "Ürün ID: " + to_string(get_tanim_numarasi()) + '\n' +
+		"Ürün Adı: " + get_isim() + '\n' +
+		"Ürün Fiyatı: " + to_string(get_fiyat()) + '\n' +
+		"Ürün Eldeki Miktar: " + to_string(get_eldeki_miktar()) + '\n';
+	}
+};
+
 class Envanter
 {
-    
+	private:
+	map<int, Urun> urun_map;
+	map<int, Urun>::iterator urun_it;
+	
+	public:
+	void urun_ekle(Urun urun)
+	{
+		urun_it = urun_map.find(urun.get_tanim_numarasi());
+		if(urun_it == urun_map.end())
+		{
+			urun_map.insert(pair<int, Urun>(urun.get_tanim_numarasi(), urun));
+		}
+	}
+
+	void urunleri_goster()
+	{
+		int i = 0;
+		for(auto& urun: urun_map)
+		{
+			cout << urun.second.bilgiler();
+			if (urun_map.size() == ++i) continue;
+			else cout << endl;
+		}
+	}
 };
 
-class Esya
+int main()
 {
-    private:
-    string tur; // Eşyanın türü
-    int boyut;  // Eşyanın envanterde kaplayacağı alan
-
-    public:
-    Esya(string tur, int boyut)
-    {
-        this->tur = tur;
-        this->boyut = boyut;
-    }
-};
-
-class Kilic : public Esya
-{
-    private:
-    string isim;
-    int saldiri_gucu;
-    int agirlik;
-
-    public:
-    Kilic(string isim, int saldiri_gucu, int agirlik) : Esya("Kılıç", ceil((saldiri_gucu * agirlik) / 2))
-    {
-        this->isim = isim;
-        this->saldiri_gucu = saldiri_gucu;
-        this->agirlik = agirlik;
-    }
-};
-
-class Kalkan : public Esya
-{
-    private:
-    string isim;
-    int savunma_gucu;
-    int agirlik;
-
-    public:
-    Kalkan(string isim, int savunma_gucu, int agirlik) : Esya("Kalkan", ceil((savunma_gucu * agirlik) / 2))
-    {
-        this->isim = isim;
-        this->savunma_gucu = savunma_gucu;
-        this->agirlik = agirlik;
-    }
-};
+	Envanter envanter;
+	envanter.urun_ekle(Urun(153, "Kitap", 670.0f, 15));
+	envanter. urun_ekle(Urun(154, "Boya", 153.0f, 15));
+	envanter.urunleri_goster();
+	return 0;
+}
