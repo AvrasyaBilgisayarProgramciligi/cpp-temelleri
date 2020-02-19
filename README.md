@@ -8,7 +8,7 @@
 
 <h3 align="center">CPP Temelleri</h3>
 <p align="center">
-    <img src="res/cpp_logo.png" alt="Standard C++" width=150 height=160>
+    <img src="gorsel-kaynaklar/cpp_logo.png" alt="Standard C++" width=150 height=160>
 </p>
 
 ## Giriş
