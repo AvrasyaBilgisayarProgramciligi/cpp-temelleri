@@ -64,6 +64,8 @@ int main()
     for(int i = 0 ; i < 4; ++i)
     {
         cout << ogrenciler_ptr->ogrenci_bilgileri();
+        
+        // Göstericimiz ile dizinin bir sonraki elemanına geçtik
         ++ogrenciler_ptr;
 
         if(3 == i) continue;
