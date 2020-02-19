@@ -51,14 +51,14 @@ Sınıf özelliklerinin dışarıya kapalı olması ve bu sınıfın her türlü
 class Araba
 {
     // Özel tanımlanmış özellikler veya eylemler
-    private:
+private:
     int motor_hacmi;
     int beygir_gucu;
     int tork;
     bool motor_caslisiyor = false;
 
     // Genel tanımlanmış özellikler veya eylemler
-    public:
+public:
     void motoru_calistir()
     {
         if(!motor_caslisiyor)
@@ -223,12 +223,12 @@ C++'da sınıf bildirimi yapılırken <b>class</b> anahtar sözcüğü kullanıl
 class sinifadi
 {
     // Özel tanımlanmış özellikler veya eylemler
-    private:
+private:
     veriler;
     fonksiyonlar;
 
     // Genel tanımlanmış özellikler veya eylemler
-    public:
+public:
     veriler;
     fonksiyonlar;
 }nesne_listesi;
@@ -240,11 +240,11 @@ class sinifadi
 
 class Kare
 {
-    private:
+private:
     int taban;
     int yukseklik;
 
-    public:
+public:
     const int& get_taban() const
     {
 	    return taban;
@@ -302,10 +302,10 @@ Programlamlamadaki en önemi noktalardan birisi de veri güvenliğidir. Nasıl k
 
 class SabitOrnek
 {
-	private:
+private:
 	int sayi;
 
-	public:	
+public:	
 	// Yapıcı fonksiyon şuanlık bilmemize gerek yok.
 	SabitOrnek()
 	{
