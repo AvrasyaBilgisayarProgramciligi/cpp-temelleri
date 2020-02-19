@@ -7,7 +7,6 @@ using namespace std;
  * davranırlar ve bildirim yapıldıktan sonra program içinde kullanılırlar.
  */
 
-// Örnek:
 class Ogrenci
 {
 private:
