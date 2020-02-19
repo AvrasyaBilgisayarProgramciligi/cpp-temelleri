@@ -91,7 +91,7 @@ public:
 <h3 style="margin: 10px 0 3px 0; font-weight: bold" > Kalıtım (Inheritance) </h3>
 Kalıtım, bir nesnenin diğer nesnelerin özelliklerini alabilmesidir. Bu sayede hiyerarşik bir yapı oluşturulur ve birçok bilgi bu sayede kullanılabilir.
 
-![Inheritance Gif](../res/inheritance.gif)
+![Inheritance Gif](../gorsel-kaynaklar/inheritance.gif)
 
 Şemada göründüğü üzere, aslında bütün hayvan sınıfları (Bird, Mamal, Parrot, Penguin, Dog, Whale) aslında 'Animal' sınıfından kalıtım almaktadır. Bu sayede ortak özellikler olan 'answer', 'name', 'talk' gibi eylemleri(behaviors) tekrar yazmadan hiyerarşik bir şekilde kullanabiliriz.
 
