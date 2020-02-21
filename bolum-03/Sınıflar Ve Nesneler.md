@@ -51,14 +51,14 @@ Sınıf özelliklerinin dışarıya kapalı olması ve bu sınıfın her türlü
 class Araba
 {
     // Özel tanımlanmış özellikler veya eylemler
-    private:
+private:
     int motor_hacmi;
     int beygir_gucu;
     int tork;
     bool motor_caslisiyor = false;
 
     // Genel tanımlanmış özellikler veya eylemler
-    public:
+public:
     void motoru_calistir()
     {
         if(!motor_caslisiyor)
@@ -91,7 +91,7 @@ class Araba
 <h3 style="margin: 10px 0 3px 0; font-weight: bold" > Kalıtım (Inheritance) </h3>
 Kalıtım, bir nesnenin diğer nesnelerin özelliklerini alabilmesidir. Bu sayede hiyerarşik bir yapı oluşturulur ve birçok bilgi bu sayede kullanılabilir.
 
-![Inheritance Gif](../res/inheritance.gif)
+![Inheritance Gif](../gorsel-kaynaklar/inheritance.gif)
 
 Şemada göründüğü üzere, aslında bütün hayvan sınıfları (Bird, Mamal, Parrot, Penguin, Dog, Whale) aslında 'Animal' sınıfından kalıtım almaktadır. Bu sayede ortak özellikler olan 'answer', 'name', 'talk' gibi eylemleri(behaviors) tekrar yazmadan hiyerarşik bir şekilde kullanabiliriz.
 
@@ -223,12 +223,12 @@ C++'da sınıf bildirimi yapılırken <b>class</b> anahtar sözcüğü kullanıl
 class sinifadi
 {
     // Özel tanımlanmış özellikler veya eylemler
-    private:
+private:
     veriler;
     fonksiyonlar;
 
     // Genel tanımlanmış özellikler veya eylemler
-    public:
+public:
     veriler;
     fonksiyonlar;
 }nesne_listesi;
@@ -240,11 +240,11 @@ class sinifadi
 
 class Kare
 {
-    private:
+private:
     int taban;
     int yukseklik;
 
-    public:
+public:
     const int& get_taban() const
     {
 	    return taban;
@@ -302,10 +302,10 @@ Programlamlamadaki en önemi noktalardan birisi de veri güvenliğidir. Nasıl k
 
 class SabitOrnek
 {
-	private:
+private:
 	int sayi;
 
-	public:	
+public:	
 	// Yapıcı fonksiyon şuanlık bilmemize gerek yok.
 	SabitOrnek()
 	{
