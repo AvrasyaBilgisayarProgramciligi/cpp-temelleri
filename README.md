@@ -1,5 +1,5 @@
 <div align="center">
-    
+![License](https://img.shields.io/github/license/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
 ![Issues](https://img.shields.io/github/issues/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
 ![Last Commit](https://img.shields.io/github/last-commit/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
 ![Stars](https://img.shields.io/github/stars/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
