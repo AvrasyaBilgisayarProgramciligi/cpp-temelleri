@@ -68,3 +68,47 @@ int faktoriyel_hesapla(int &sayi)
 /* Output:
  * 10'un faktöriyeli: 3628800
  */
+
+/* Dinamik bellek yönetimi
+ * Bu kısımda belleği etkin bir biçimde kullanmanın önemini
+ * ve iki yeni anahtar kelimenin ('new', 'delete') ne işe yaradığından bahsedeceğiz.
+ */
+
+/* New anahtar kelimesi
+ * Bellekten yer ayırmak istenildiği taktide 'new' operatörü kullanılır. 
+ * Bir tam sayıyı gösteren gösterici için bir tamsayılık yer aşağıdaki
+ * şekilde bellekte kendisine yer edinir.
+ */
+
+void new_anahtar_kelimesi()
+{
+	int *sayi;
+	sayi = new int;
+
+	// Eğer değişkene başlangıç değeride vermek istiyorsak
+	sayi = new int(10);
+
+	// Eğer bellekte bir dizi oluşturucak şekilde yer ayırmak istiyorsak
+	sayi = new int[3];
+}
+
+/* Delete anahtar kelimesi
+ * 'new' anahtar kelimesi ile bir yer ayırdığımızı varsayalım. 
+ * Ayırdığımız yeri geri vermek istiyorsak, 'delete' operatörünü kullanırız.
+ */
+
+void delete_anahtar_kelimesi()
+{
+	int *sayi;
+
+	// Bellekten yer ayırttık
+	sayi = new int;
+
+	// Ayırttığımız yeri geri verdik
+	delete sayi;
+
+	// Eğer bellekte bir dizi için yer ayırmak istiyorsak
+	sayi = new int[3];
+	delete [] sayi;
+}
+
