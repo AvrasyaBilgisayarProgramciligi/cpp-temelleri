@@ -233,7 +233,7 @@ public:
     fonksiyonlar;
 }nesne_listesi;
 ```
-> :notes: Sınıf sonundaki nesne listesini `main()` fonskiyonunun içinde de tanımlayabiliriz.
+> :warning: Sınıf sonundaki nesne listesini `main()` fonskiyonunun içinde de tanımlayabiliriz.
 
 ```cpp
 #include <iostream>
