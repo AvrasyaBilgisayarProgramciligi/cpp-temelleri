@@ -8,7 +8,7 @@
  * yaparak programın daha anlaşılır ve okunaklı olmasını sağlayabiliriz.
  */
 
-/* Tanımlama:
+/* Tanımlama
  * (dönüş tipi) (sınıf adı) :: operator (aşırı yüklenecek operatör)
  * (argüman listesi){
  *  fonksiyonun yapıcakları
