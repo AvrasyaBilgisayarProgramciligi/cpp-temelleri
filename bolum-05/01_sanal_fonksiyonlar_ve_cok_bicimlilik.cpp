@@ -54,7 +54,6 @@ class VirtualB : public VirtualA
 
 int main()
 {
-
 	std::cout << "Sanallaştırılmış fonksiyondan önce:" << std::endl;
 	B b_nesnesi;
 	A *a_ptr = &b_nesnesi;
