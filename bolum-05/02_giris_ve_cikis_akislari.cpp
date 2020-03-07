@@ -64,4 +64,6 @@ int main()
 {
 	dosya_cikis();
 	dosya_girisi();
+
+	return 0;
 }

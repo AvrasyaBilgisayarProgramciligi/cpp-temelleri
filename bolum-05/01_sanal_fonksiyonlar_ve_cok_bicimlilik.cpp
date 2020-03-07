@@ -66,4 +66,6 @@ int main()
 	VirtualB virtual_b_nesnesi;
 	VirtualA *virtual_a_ptr = &virtual_b_nesnesi;
 	virtual_a_ptr->sinif_adi();
+
+	return 0;
 }
