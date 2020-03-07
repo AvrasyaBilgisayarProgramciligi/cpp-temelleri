@@ -1,5 +1,6 @@
 <div align="center">
-    
+ 
+![Completion](https://img.shields.io/badge/completion-%25100-succsses)
 ![License](https://img.shields.io/github/license/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
 ![Issues](https://img.shields.io/github/issues/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
 ![Last Commit](https://img.shields.io/github/last-commit/AvrasyaBilgisayarProgramciligi/cpp-temelleri)
